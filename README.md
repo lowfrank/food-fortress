@@ -10,4 +10,4 @@ cargo +stable b --release
 
 In the `run` folder, you can find a `launch_bat.vbs` and a `run.bat`. I recommend creating a shortcut to the Dektop of the `launch_bat.vbs`, renaming it and setting the icon (located in `images/refrigerator.ico`). This way you can have a good looking shortcut in your desktop.
 
-Note that Food Fortress is only available for the Windows environment.
+Note that Food Fortress is only available for the Windows environment at the moment.
