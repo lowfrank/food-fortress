@@ -1,0 +1,23 @@
+[package]
+name = "food-fortress"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.65"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.23"  # Get current date
+eframe = "0.19.0"  # GUI
+egui_extras = "0.19.0"  # GUI extras
+image = "0.24.5"  # Import GUI icon
+rodio = "0.16.0"  # Play sounds
+serde = "1.0.148"  # Serialize and deserialize
+serde_derive = "1.0.148"  # Serialize and deserialize
+serde_json = "1.0.89"  # Serialize and deserialize
+
+[profile.release]
+panic = "abort"
+
+[profile.dev.package."*"]
+opt-level = 3
